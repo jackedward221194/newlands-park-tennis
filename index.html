@@ -1,52 +1,7 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Newlands Park Tennis Tour!</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f7f5;
-      color: #173d32;
-      margin: 0;
-      text-align: center;
-    }
-    header {
-      background: #173d32;
-      color: white;
-      padding: 45px 20px;
-    }
-    main { padding: 30px 20px; }
-    .card {
-      background: white;
-      border-radius: 12px;
-      padding: 25px;
-      margin: 15px auto;
-      max-width: 500px;
-      box-shadow: 0 2px 8px #0001;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>🎾 Newlands Park Tennis Tour</h1>
-    <p>Monthly tournaments, player statistics and records</p>
-  </header>
-  <main>
-    <div class="card">
-      <h2>🏆 Leaderboard</h2>
-      <p>Player rankings and statistics coming soon!</p>
-    </div>
-    <div class="card">
-      <h2>👤 Player Profiles</h2>
-      <p>Explore match records and tournament finishes.</p>
-    </div>
-    <div class="card">
-      <h2>📅 Tournament History</h2>
-      <p>Results from every monthly tournament.</p>
-    </div>
-  </main>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Newlands Park Tennis Tour</title><style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#173e33;background:#f3f6f3}*{box-sizing:border-box}body{margin:0}header{background:#143e32;color:white;padding:30px 20px}header .inner,main{max-width:1000px;margin:auto}h1{margin:4px 0;font-size:clamp(24px,5vw,38px)}header p{color:#d3e4d8}main{padding:20px}nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}button,select,input{font:inherit}button{border:1px solid #cad9d0;background:white;color:#173e33;border-radius:9px;padding:10px 14px;cursor:pointer}button.active{background:#173e33;color:white}input{width:100%;padding:12px;border:1px solid #ccd8cf;border-radius:9px;margin-bottom:14px}.card{background:white;border:1px solid #e0e8e2;border-radius:14px;padding:18px;margin:12px 0;box-shadow:0 2px 8px #153d3210}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stats .card{margin:0;text-align:center}.big{font-size:26px;font-weight:750}.muted{color:#60756b;font-size:13px}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;min-width:610px}th,td{padding:12px 9px;text-align:left;border-bottom:1px solid #edf1ed}th{font-size:12px;color:#52695c}td button{padding:4px 6px;border:0;text-decoration:underline}.hidden{display:none}.pill{background:#e4f0e7;border-radius:30px;padding:4px 9px;font-size:12px}footer{padding:25px;text-align:center;color:#718178;font-size:12px}@media(max-width:560px){.stats{grid-template-columns:repeat(3,1fr)}.big{font-size:21px}main{padding:12px}}
+</style></head><body><header><div class="inner"><div>🎾 NEWLANDS PARK</div><h1>Tennis Tour</h1><p>Monthly doubles tournaments • Player statistics • Club records</p></div></header><main><div id="status" class="muted">Loading tournament statistics…</div><nav><button class="active" data-tab="leaderboard">Leaderboard</button><button data-tab="players">Player profiles</button><button data-tab="tournaments">Tournament history</button></nav><section id="leaderboard"><div class="stats" id="totals"></div><div class="card"><h2>All-time leaderboard</h2><p class="muted">Ranked by match wins. No points are awarded for tournament finishes.</p><div class="scroll"><table><thead><tr><th>#</th><th>Player</th><th>W</th><th>L</th><th>Win %</th><th>1st</th><th>Top 3</th><th>Best</th></tr></thead><tbody id="board"></tbody></table></div></div></section><section id="players" class="hidden"><h2>Player profiles</h2><input id="search" placeholder="Search player name…"><div id="profiles"></div></section><section id="tournaments" class="hidden"><h2>Tournament history</h2><div id="events"></div></section></main><footer>Newlands Park Tennis Tour • Statistics from the club tournament workbook</footer><script>
+let data;const $=id=>document.getElementById(id);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function profile(p){return `<div class="card"><h3>${esc(p.name)}</h3><div class="stats"><div><div class="big">${p.wins}-${p.losses}</div><div class="muted">Match record</div></div><div><div class="big">${p.winPct}%</div><div class="muted">Win rate</div></div><div><div class="big">${p.best??'—'}</div><div class="muted">Best finish</div></div></div><p><span class="pill">${p.appearances} appearances</span> <span class="pill">${p.first} titles</span> <span class="pill">${p.top3} top-three finishes</span></p><p class="muted">${p.finishes.map(f=>esc(f.tournament)+': '+f.position+(f.position===1?'st':f.position===2?'nd':f.position===3?'rd':'th')).join(' · ')||'No finishing positions yet'}</p></div>`}
+function render(){let ps=data.players;$('status').textContent=`${ps.length} players • ${data.matches.length} completed matches • Updated ${data.updated}`;$('totals').innerHTML=[[ps.length,'Players'],[data.tournaments.length,'Tournaments'],[data.matches.length,'Matches']].map(x=>`<div class="card"><div class="big">${x[0]}</div><div class="muted">${x[1]}</div></div>`).join('');$('board').innerHTML=ps.map((p,i)=>`<tr><td>${i+1}</td><td><button data-player="${esc(p.id)}">${esc(p.name)}</button></td><td>${p.wins}</td><td>${p.losses}</td><td>${p.winPct}%</td><td>${p.first}</td><td>${p.top3}</td><td>${p.best??'—'}</td></tr>`).join('');$('events').innerHTML=data.tournaments.map(t=>`<div class="card"><h3>${esc(t.name||t.id)}</h3><p class="muted">${esc(t.id)}</p>${data.matches.filter(m=>m.tournament===t.id).map(m=>`<p><b>${esc(m.round)}</b> · ${esc(m.teamA.join(' & '))} vs ${esc(m.teamB.join(' & '))} · ${esc(m.score)} · Winner: Pair ${m.winner}</p>`).join('')||'<p>No validated matches yet.</p>'}</div>`).join('');showProfiles('')}
+function showProfiles(q){$('profiles').innerHTML=data.players.filter(p=>p.name.toLowerCase().includes(q.toLowerCase())).map(profile).join('')||'<p>No players found.</p>'}document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x===b));['leaderboard','players','tournaments'].forEach(x=>$(x).classList.toggle('hidden',x!==b.dataset.tab))});$('search').oninput=e=>showProfiles(e.target.value);$('board').onclick=e=>{let b=e.target.closest('[data-player]');if(!b)return;document.querySelector('[data-tab="players"]').click();$('search').value=data.players.find(p=>p.id===b.dataset.player)?.name||'';showProfiles($('search').value)};fetch('stats.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Stats file not found');return r.json()}).then(d=>{data=d;render()}).catch(e=>$('status').textContent='Unable to load statistics: '+e.message);
+</script></body></html>

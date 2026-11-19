@@ -1,0 +1,937 @@
+{
+  "updated": "2026-11-19 21:28 UTC",
+  "players": [
+    {
+      "id": "P03",
+      "name": "Jeroven Tedria",
+      "played": 6,
+      "wins": 5,
+      "losses": 1,
+      "first": 1,
+      "second": 0,
+      "third": 1,
+      "best": 1,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 3
+        },
+        {
+          "tournament": "T2026-02",
+          "position": 1
+        }
+      ],
+      "appearances": 2,
+      "winPct": 83.3,
+      "top3": 2
+    },
+    {
+      "id": "P04",
+      "name": "Martin Gilday",
+      "played": 6,
+      "wins": 5,
+      "losses": 1,
+      "first": 1,
+      "second": 0,
+      "third": 1,
+      "best": 1,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 3
+        },
+        {
+          "tournament": "T2026-02",
+          "position": 1
+        }
+      ],
+      "appearances": 2,
+      "winPct": 83.3,
+      "top3": 2
+    },
+    {
+      "id": "P02",
+      "name": "Blair Edward",
+      "played": 3,
+      "wins": 3,
+      "losses": 0,
+      "first": 1,
+      "second": 0,
+      "third": 0,
+      "best": 1,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 1
+        }
+      ],
+      "appearances": 1,
+      "winPct": 100.0,
+      "top3": 1
+    },
+    {
+      "id": "P01",
+      "name": "Tracy Edward",
+      "played": 3,
+      "wins": 3,
+      "losses": 0,
+      "first": 1,
+      "second": 0,
+      "third": 0,
+      "best": 1,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 1
+        }
+      ],
+      "appearances": 1,
+      "winPct": 100.0,
+      "top3": 1
+    },
+    {
+      "id": "P06",
+      "name": "Arran McFadyen",
+      "played": 6,
+      "wins": 3,
+      "losses": 3,
+      "first": 0,
+      "second": 1,
+      "third": 0,
+      "best": 2,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 2
+        },
+        {
+          "tournament": "T2026-02",
+          "position": 6
+        }
+      ],
+      "appearances": 2,
+      "winPct": 50.0,
+      "top3": 1
+    },
+    {
+      "id": "P09",
+      "name": "Craig Vickers",
+      "played": 6,
+      "wins": 3,
+      "losses": 3,
+      "first": 0,
+      "second": 1,
+      "third": 0,
+      "best": 2,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 4
+        },
+        {
+          "tournament": "T2026-02",
+          "position": 2
+        }
+      ],
+      "appearances": 2,
+      "winPct": 50.0,
+      "top3": 1
+    },
+    {
+      "id": "P10",
+      "name": "Christopher Murphy",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 5,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 5
+        }
+      ],
+      "appearances": 1,
+      "winPct": 66.7,
+      "top3": 0
+    },
+    {
+      "id": "P17",
+      "name": "Eddie Mack",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "first": 0,
+      "second": 1,
+      "third": 0,
+      "best": 2,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 2
+        }
+      ],
+      "appearances": 1,
+      "winPct": 66.7,
+      "top3": 1
+    },
+    {
+      "id": "P05",
+      "name": "Ewan Wilson",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "first": 0,
+      "second": 1,
+      "third": 0,
+      "best": 2,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 2
+        }
+      ],
+      "appearances": 1,
+      "winPct": 66.7,
+      "top3": 1
+    },
+    {
+      "id": "P12",
+      "name": "Hazel Imrie",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 5,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 5
+        }
+      ],
+      "appearances": 1,
+      "winPct": 66.7,
+      "top3": 0
+    },
+    {
+      "id": "P19",
+      "name": "Jacob Williams",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "first": 0,
+      "second": 0,
+      "third": 1,
+      "best": 3,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 3
+        }
+      ],
+      "appearances": 1,
+      "winPct": 66.7,
+      "top3": 1
+    },
+    {
+      "id": "P25",
+      "name": "Michael Wood",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 5,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 5
+        }
+      ],
+      "appearances": 1,
+      "winPct": 66.7,
+      "top3": 0
+    },
+    {
+      "id": "P18",
+      "name": "Robert Davies",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "first": 0,
+      "second": 0,
+      "third": 1,
+      "best": 3,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 3
+        }
+      ],
+      "appearances": 1,
+      "winPct": 66.7,
+      "top3": 1
+    },
+    {
+      "id": "P24",
+      "name": "Sam Forbes",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 5,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 5
+        }
+      ],
+      "appearances": 1,
+      "winPct": 66.7,
+      "top3": 0
+    },
+    {
+      "id": "P07",
+      "name": "Stuart McFadyen",
+      "played": 6,
+      "wins": 2,
+      "losses": 4,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 6,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 7
+        },
+        {
+          "tournament": "T2026-02",
+          "position": 6
+        }
+      ],
+      "appearances": 2,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P14",
+      "name": "Brian Lynch",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 6,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 6
+        }
+      ],
+      "appearances": 1,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P22",
+      "name": "Douglas Duffin",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 4,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 4
+        }
+      ],
+      "appearances": 1,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P27",
+      "name": "Duncan Perry-Mcready",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 7,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 7
+        }
+      ],
+      "appearances": 1,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P23",
+      "name": "Jordan Thompson",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 4,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 4
+        }
+      ],
+      "appearances": 1,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P26",
+      "name": "Morna McArthur",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 7,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 7
+        }
+      ],
+      "appearances": 1,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P11",
+      "name": "Peter Buckingham",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 7,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 7
+        }
+      ],
+      "appearances": 1,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P08",
+      "name": "Sean Folan",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 4,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 4
+        }
+      ],
+      "appearances": 1,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P13",
+      "name": "Tom Muir",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 6,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 6
+        }
+      ],
+      "appearances": 1,
+      "winPct": 33.3,
+      "top3": 0
+    },
+    {
+      "id": "P15",
+      "name": "Alan McGinlay",
+      "played": 3,
+      "wins": 0,
+      "losses": 3,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 8,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 8
+        }
+      ],
+      "appearances": 1,
+      "winPct": 0.0,
+      "top3": 0
+    },
+    {
+      "id": "P21",
+      "name": "Dot McDonald",
+      "played": 3,
+      "wins": 0,
+      "losses": 3,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 8,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 8
+        }
+      ],
+      "appearances": 1,
+      "winPct": 0.0,
+      "top3": 0
+    },
+    {
+      "id": "P20",
+      "name": "Jie Dong",
+      "played": 3,
+      "wins": 0,
+      "losses": 3,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 8,
+      "finishes": [
+        {
+          "tournament": "T2026-02",
+          "position": 8
+        }
+      ],
+      "appearances": 1,
+      "winPct": 0.0,
+      "top3": 0
+    },
+    {
+      "id": "P16",
+      "name": "Loraine Henderson",
+      "played": 3,
+      "wins": 0,
+      "losses": 3,
+      "first": 0,
+      "second": 0,
+      "third": 0,
+      "best": 8,
+      "finishes": [
+        {
+          "tournament": "T2026-01",
+          "position": 8
+        }
+      ],
+      "appearances": 1,
+      "winPct": 0.0,
+      "top3": 0
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "T2026-01",
+      "name": "Newlands Park October Doubes 26"
+    },
+    {
+      "id": "T2026-02",
+      "name": "Newlands Park November Doubes 26"
+    }
+  ],
+  "matches": [
+    {
+      "tournament": "T2026-01",
+      "round": "QF",
+      "format": "Fast4",
+      "teamA": [
+        "Tom Muir",
+        "Brian Lynch"
+      ],
+      "teamB": [
+        "Tracy Edward",
+        "Blair Edward"
+      ],
+      "score": "2-4, 1-4",
+      "winner": "B"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "QF",
+      "format": "Fast4",
+      "teamA": [
+        "Jeroven Tedria",
+        "Martin Gilday"
+      ],
+      "teamB": [
+        "Alan McGinlay",
+        "Loraine Henderson"
+      ],
+      "score": "4-0, 4-0",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "QF",
+      "format": "Fast4",
+      "teamA": [
+        "Ewan Wilson",
+        "Arran McFadyen"
+      ],
+      "teamB": [
+        "Christopher Murphy",
+        "Hazel Imrie"
+      ],
+      "score": "4-2, 4-0",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "QF",
+      "format": "Fast4",
+      "teamA": [
+        "Sean Folan",
+        "Craig Vickers"
+      ],
+      "teamB": [
+        "Stuart McFadyen",
+        "Peter Buckingham"
+      ],
+      "score": "4-1, 4-2",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "SF",
+      "format": "Fast4",
+      "teamA": [
+        "Tom Muir",
+        "Brian Lynch"
+      ],
+      "teamB": [
+        "Alan McGinlay",
+        "Loraine Henderson"
+      ],
+      "score": "4-2, 4-0",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "SF",
+      "format": "Fast4",
+      "teamA": [
+        "Christopher Murphy",
+        "Hazel Imrie"
+      ],
+      "teamB": [
+        "Stuart McFadyen",
+        "Peter Buckingham"
+      ],
+      "score": "4-3, 4-0",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "SF",
+      "format": "Fast4",
+      "teamA": [
+        "Tracy Edward",
+        "Blair Edward"
+      ],
+      "teamB": [
+        "Jeroven Tedria",
+        "Martin Gilday"
+      ],
+      "score": "2-4, 4-2, TB 10-7",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "SF",
+      "format": "Fast4",
+      "teamA": [
+        "Ewan Wilson",
+        "Arran McFadyen"
+      ],
+      "teamB": [
+        "Sean Folan",
+        "Craig Vickers"
+      ],
+      "score": "1-4, 4-0, TB 10-4",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "F",
+      "format": "Traditional",
+      "teamA": [
+        "Tracy Edward",
+        "Blair Edward"
+      ],
+      "teamB": [
+        "Ewan Wilson",
+        "Arran McFadyen"
+      ],
+      "score": "7-5, 6-0",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "F",
+      "format": "Traditional",
+      "teamA": [
+        "Sean Folan",
+        "Craig Vickers"
+      ],
+      "teamB": [
+        "Jeroven Tedria",
+        "Martin Gilday"
+      ],
+      "score": "3-6, 3-6",
+      "winner": "B"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "F",
+      "format": "Traditional",
+      "teamA": [
+        "Christopher Murphy",
+        "Hazel Imrie"
+      ],
+      "teamB": [
+        "Tom Muir",
+        "Brian Lynch"
+      ],
+      "score": "6-4, 6-1",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-01",
+      "round": "F",
+      "format": "Traditional",
+      "teamA": [
+        "Stuart McFadyen",
+        "Peter Buckingham"
+      ],
+      "teamB": [
+        "Alan McGinlay",
+        "Loraine Henderson"
+      ],
+      "score": "6-2, 6-1",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "QF",
+      "format": "Fast4",
+      "teamA": [
+        "Arran McFadyen",
+        "Stuart McFadyen"
+      ],
+      "teamB": [
+        "Douglas Duffin",
+        "Jordan Thompson"
+      ],
+      "score": "2-4, 2-4",
+      "winner": "B"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "QF",
+      "format": "Fast4",
+      "teamA": [
+        "Morna McArthur",
+        "Duncan Perry-Mcready"
+      ],
+      "teamB": [
+        "Robert Davies",
+        "Jacob Williams"
+      ],
+      "score": "1-4, 0-4",
+      "winner": "B"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "QF",
+      "format": "Fast4",
+      "teamA": [
+        "Craig Vickers",
+        "Eddie Mack"
+      ],
+      "teamB": [
+        "Sam Forbes",
+        "Michael Wood"
+      ],
+      "score": "4-3, 4-1",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "QF",
+      "format": "Fast4",
+      "teamA": [
+        "Jeroven Tedria",
+        "Martin Gilday"
+      ],
+      "teamB": [
+        "Dot McDonald",
+        "Jie Dong"
+      ],
+      "score": "4-0, 4-0",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "SF",
+      "format": "Fast4",
+      "teamA": [
+        "Jeroven Tedria",
+        "Martin Gilday"
+      ],
+      "teamB": [
+        "Douglas Duffin",
+        "Jordan Thompson"
+      ],
+      "score": "4-0, 4-2",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "SF",
+      "format": "Fast4",
+      "teamA": [
+        "Robert Davies",
+        "Jacob Williams"
+      ],
+      "teamB": [
+        "Craig Vickers",
+        "Eddie Mack"
+      ],
+      "score": "1-4, 2-4",
+      "winner": "B"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "SF",
+      "format": "Fast4",
+      "teamA": [
+        "Arran McFadyen",
+        "Stuart McFadyen"
+      ],
+      "teamB": [
+        "Morna McArthur",
+        "Duncan Perry-Mcready"
+      ],
+      "score": "4-1, 4-1",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "SF",
+      "format": "Fast4",
+      "teamA": [
+        "Dot McDonald",
+        "Jie Dong"
+      ],
+      "teamB": [
+        "Sam Forbes",
+        "Michael Wood"
+      ],
+      "score": "0-4, 0-4",
+      "winner": "B"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "F",
+      "format": "Traditional",
+      "teamA": [
+        "Jeroven Tedria",
+        "Martin Gilday"
+      ],
+      "teamB": [
+        "Craig Vickers",
+        "Eddie Mack"
+      ],
+      "score": "6-3, 7-5",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "F",
+      "format": "Traditional",
+      "teamA": [
+        "Robert Davies",
+        "Jacob Williams"
+      ],
+      "teamB": [
+        "Douglas Duffin",
+        "Jordan Thompson"
+      ],
+      "score": "4-6, 6-0, TB 10-5",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "F",
+      "format": "Traditional",
+      "teamA": [
+        "Sam Forbes",
+        "Michael Wood"
+      ],
+      "teamB": [
+        "Arran McFadyen",
+        "Stuart McFadyen"
+      ],
+      "score": "6-4, 6-4",
+      "winner": "A"
+    },
+    {
+      "tournament": "T2026-02",
+      "round": "F",
+      "format": "Traditional",
+      "teamA": [
+        "Morna McArthur",
+        "Duncan Perry-Mcready"
+      ],
+      "teamB": [
+        "Dot McDonald",
+        "Jie Dong"
+      ],
+      "score": "4-6, 6-2, TB 11-9",
+      "winner": "A"
+    }
+  ]
+}
