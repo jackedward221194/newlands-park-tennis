@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19 21:28 UTC",
+  "updated": "2026-11-19 22:26 UTC",
   "players": [
     {
       "id": "P03",
@@ -259,7 +259,7 @@
     },
     {
       "id": "P18",
-      "name": "Robert Davies",
+      "name": "Robert Davie",
       "played": 3,
       "wins": 2,
       "losses": 1,
@@ -777,7 +777,7 @@
         "Duncan Perry-Mcready"
       ],
       "teamB": [
-        "Robert Davies",
+        "Robert Davie",
         "Jacob Williams"
       ],
       "score": "1-4, 0-4",
@@ -833,7 +833,7 @@
       "round": "SF",
       "format": "Fast4",
       "teamA": [
-        "Robert Davies",
+        "Robert Davie",
         "Jacob Williams"
       ],
       "teamB": [
@@ -893,7 +893,7 @@
       "round": "F",
       "format": "Traditional",
       "teamA": [
-        "Robert Davies",
+        "Robert Davie",
         "Jacob Williams"
       ],
       "teamB": [
